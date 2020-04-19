@@ -1,4 +1,4 @@
-			#body {
+			body {
 				width: 99.9%;
 				color: #000000;
 				max-width: 940px;
@@ -9,10 +9,10 @@
 				background-attachment: fixed;
 				background-position: bottom;}
 			#page {
-				max-width: 300px;
+				max-width: 400px;
 				min-width: 200px;
 				margin-left: 10px;
-				margin-right: 600px;
+				margin-right: 400px;
 				padding: 12px;
 				border: 9px outset #FFFFFF;
 				text-align: left;
