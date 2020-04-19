@@ -1,0 +1,58 @@
+			body {
+				width: 99.9%;
+				color: #000000;
+				max-width: 940px;
+				min-width: 120px;
+				margin: 100px auto 100px auto;
+				background-image: url("./assets/boat3.jpg");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-position: center center;}
+			#page {
+				max-width: 300px;
+				min-width: 200px;
+				margin-left: 10px;
+				margin-right: 600px;
+				padding: 12px;
+				border: 9px outset #FFFFFF;
+				text-align: left;
+				font-size: 99%;
+				font-family: veranda, Courier, monospace;
+				font-weight: normal;
+				letter-spacing: 0.13em;
+				background-color: #FEF9E7;
+				opacity: 0.8;}
+
+			a:hover {
+				font-style: italic;}
+			#h1 {
+				font-style: "Rock Salt", "New Courier", monospace;
+				color: #C7001E;
+				font-weight: bold;}
+			p:first-letter {
+				font-size: 200%}
+			#logo {
+				max-width: 850px;
+				min-width: 150px;
+				margin: 10px center 25px center;
+				font-style: "Rock Salt", "New Courier", monospace;
+				color:FireBrick;
+				font-size: 150%;
+				font-weight: bold;
+				text-shadow: 2px 2px 7px #000000; }
+				#content {
+					overflow: auto;
+				  }
+			#footer {
+				width: 48%;
+				margin-left: 20px;
+				margin-right: 490px;
+				padding: 13px;
+				border: 9px outset #FFFFFF;
+				text-align: left;
+				font-size: 99%;
+				font-family: veranda, Courier, monospace;
+				font-weight: normal;
+				letter-spacing: 0.13em;
+				background-color: #FEF9E7;
+				opacity: 0.8;}
