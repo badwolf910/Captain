@@ -1,4 +1,4 @@
-			body {
+			#body {
 				width: 99.9%;
 				color: #000000;
 				max-width: 940px;
@@ -46,12 +46,12 @@
 			#footer {
 				width: 48%;
 				margin-left: 20px;
-				margin-right: 490px;
+				margin-right: 450px;
 				padding: 13px;
 				border: 9px outset #FFFFFF;
 				text-align: left;
 				font-size: 99%;
-				font-family: veranda, Courier, monospace;
+				font-family: veranda,  "New Courier", monospace;
 				font-weight: normal;
 				letter-spacing: 0.13em;
 				background-color: #FEF9E7;
