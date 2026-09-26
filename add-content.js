@@ -1,16 +1,22 @@
-var today = new Date();
-var hourNow = today.getHours();
-var greeting;
+const inquiryForm = document.querySelector('#inquiry-form');
 
-if (hourNow > 18) {
-    greeting = ' A boat is like a dog; it knows if you love it... Dan Schwieman ';
-} else if (hourNow > 13) {
-    greeting = ' The goal is not to sail the boat but rather to help the boat sail herself... John Rousmaniere ';
-} else if (hourNow > 10) {
-    greeting = ' A boat without captain cannot remain long on the surface... Mehmet Muratildan ';
-} else if (hourNow > 6) {
-    greeting = ' Twenty years from now you will be more disappointed by the things that you did not do than by the ones you did do. So throw off the bowlines. Sail away from the safe harbour. Catch the trade winds in your sails. Explore! Dream! Discover!... Mark Twain ';
-} else {
-    greeting = 'Welcome!'
+if (inquiryForm) {
+    inquiryForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(inquiryForm);
+        const name = formData.get('name').trim();
+        const email = formData.get('email').trim();
+        const trip = formData.get('trip').trim();
+        const subject = encodeURIComponent(`Boat trip inquiry from ${name}`);
+        const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nTrip details:\n${trip}`);
+
+        window.location.href = `mailto:shweeman@hotmail.com?subject=${subject}&body=${body}`;
+    });
 }
-document.write('<h2>' + greeting + '</h2>')
+
+const year = document.querySelector('#year');
+
+if (year) {
+    year.textContent = new Date().getFullYear();
+}

@@ -1,82 +1,73 @@
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-	<style>
-		#body {
-			color: #000000;
-			max-width: 99.9%;
-			min-width: 99.9%;
-			margin: 25px auto 25px auto;
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-			background-position: center;
-			background-image: url("./assets/pastel-landscape.jpg") ;
-		}
-
-		#page {
-			max-width: 79.9%;
-			min-width: 79.9%;
-			margin-left: 10px;
-			margin-right: 10px;
-			padding: 12px;
-			border: 9px outset #FFFFFF;
-			text-align: left;
-			font-size: 100%;
-			font-family: "New Courier", Courier, monospace;
-			font-weight: normal;
-			letter-spacing: 0.13em;
-			background-color: #FEF9E7;
-			opacity: 0.8;
-		}
-
-		#content {
-			overflow: auto;
-		}
-		p {
-			font-size: 2em;
-  			font-weight: 500;
-		}
-
-		h1 {
-			color: FireBrick;
-			text-shadow: 2px 2px 7px #000000;
-		}
-
-		h2 {
-			max-width: 99.9%;
-			min-width: 99.9%;
-			margin-left: 10px;
-			margin-right: 10px;
-			padding: 12px;
-			border: 9px outset #FFFFFF;
-			text-align: left;
-			font-size: 20px;
-			font-family: "New Courier", Courier, monospace;
-			font-weight: normal;
-			letter-spacing: 0.13em;
-			background-color: #FEF9E7;
-			opacity: 0.8;
-		}
-	</style>
-	<title>About Me</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Meet Captain Dan Schwieman: four decades of boating, rescue, first aid, and professional vessel experience.">
+	<meta name="theme-color" content="#143b3b">
+	<title>About Captain Dan | Captain Dan Schwieman</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="stylesheet.css">
+	<script src="add-content.js" defer></script>
 </head>
 
-<body><br><br><br>
-	<h1>About Me</h1><br><br><br><br><br><br><br>
-	<div id="page">
-		<p><img src="./assets/dad.jpg" alt="" width="300" height="400" /><br>For the past 40 years I have been a lifeguard, professional rescue instructor, first aid and CPR instructor.
-			I am certified kayak on the Cheat and New rivers and have never had a violation on any vessel. I
-			have driven sampans in Hong Kong and sailed a Falucka in Egypt on the Nile. I am very familiar with the
-			Great
-			Lakes, the Mississippi in the intercoastal. I was in the first group sent into Long Island by the Red Cross
-			for
-			hurricane Sandy and managed over 200 staff and medical people. I have driven several commercial vessels in
-			the Chicago area. I have a Florida CDL drivers license with over 1,000,000 miles and again, no violations. I
-			have also crewed 100 foot 100-year-old schooners off Maine in the Atlantic and retrieved a satellite for
-			NASA off Chicago per their emergency request.</p>
-	</div>
-	<br><a href="index.html">Back</a><br>
-	<script src="add-content.js"></script>;
+<body class="about-page">
+	<header class="site-header">
+		<a class="brand" href="index.html" aria-label="Captain Dan Schwieman home">
+			<span class="brand-mark" aria-hidden="true">D</span>
+			<span class="brand-copy"><strong>CAPTAIN DAN</strong><span>Private Boat Captain</span></span>
+		</a>
+		<nav class="site-nav" aria-label="Main navigation">
+			<a class="nav-link" href="index.html#services">Services</a>
+			<a class="nav-link" href="index.html#contact">Contact</a>
+			<a class="button button-small" href="index.html#contact">Plan a trip <span aria-hidden="true">↗</span></a>
+		</nav>
+	</header>
+
+	<main>
+		<section class="story-hero">
+			<div class="story-photo"><img src="assets/dad.jpg" alt="Captain Dan Schwieman" fetchpriority="high"></div>
+			<div class="story-heading">
+				<p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> A life on the water</p>
+				<h1>Meet Captain<br><em>Dan Schwieman.</em></h1>
+				<p>Four decades of boating, rescue, and safety experience. A lifetime of stories from the water.</p>
+			</div>
+		</section>
+
+		<section class="story-content section-wrap">
+			<aside class="story-aside">
+				<p>A steady approach, from the first line to the last mile.</p>
+				<a class="text-link" href="index.html">← Back to the water</a>
+			</aside>
+			<div class="story-copy">
+				<p>For the past 40 years, I have worked as a lifeguard, professional rescue instructor, and first aid and CPR instructor. Safety and looking after the people aboard have always been part of the job.</p>
+				<p>I am certified to kayak on the Cheat and New Rivers and have never had a violation on any vessel. I have driven sampans in Hong Kong and sailed a felucca on Egypt’s Nile. I know the Great Lakes, the Mississippi, and the Intracoastal Waterway, and have operated commercial vessels in the Chicago area.</p>
+				<p>After Hurricane Sandy, I was among the first Red Cross teams sent to Long Island, where I managed more than 200 staff and medical personnel. I have also crewed 100-foot, century-old schooners off the coast of Maine and helped retrieve a satellite off Chicago at NASA’s request.</p>
+				<div class="story-facts" aria-label="Experience highlights">
+					<div class="story-fact"><strong>100 ton</strong><span>Captain with sailing endorsement</span></div>
+					<div class="story-fact"><strong>Coast Guard</strong><span>Advanced Ship Fire certificate</span></div>
+					<div class="story-fact"><strong>1,000,000+</strong><span>Professional driving miles</span></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="story-cta section-wrap">
+			<h2>Have a trip in mind?<br><em>Let’s talk it through.</em></h2>
+			<a class="button button-dark" href="index.html#contact">Get in touch <span aria-hidden="true">↗</span></a>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<a class="brand brand-footer" href="index.html">
+			<span class="brand-mark" aria-hidden="true">D</span>
+			<span class="brand-copy"><strong>CAPTAIN DAN</strong><span>Private Boat Captain</span></span>
+		</a>
+		<p>Good days start on the water.</p>
+		<span class="footer-credit">© <span id="year">2026</span> Captain Dan Schwieman</span>
+	</footer>
 </body>
 
 </html>

@@ -1,42 +1,131 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-	<title>Boat Captain for Hire</title>
-	<meta name="description" content="Rent a boat captain to drive your boat" />
-	<meta name="keywords" content="boat, rental, rent, captain" />
-	<meta http-equiv="author" content="Danielle Smith" />
-	<link rel="stylesheet" type="text/css" href="stylesheet.css" />
-	<meta name="viewport" content="width = device-width, initial-scale = 1">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="/captain/materialize.min.css">
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script src="/captain/materialize.min.js"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Experienced, credentialed boat captain available for private trips and vessel delivery on the Great Lakes, Mississippi, and beyond.">
+	<meta name="theme-color" content="#143b3b">
+	<title>Captain Dan Schwieman | Private Boat Captain</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="stylesheet.css">
+	<script src="add-content.js" defer></script>
 </head>
 
 <body>
-	<div id="logo">
-		<h1><img src="https://i.postimg.cc/15h9GgtJ/compass-160051-640.png" height="100" width="100"
-				alt="Boat Captain for Hire" align="middle" /> Boat Captain For Hire</h1>
-	</div>
-	<div id="page">
-		<p>Do you have a boat and need a captain to drive it? My name is Captain Dan Schwieman I am a 100 ton ship
-			captain with a sailing endorsement and a Coast Guard advanced ship fire certificate. You can read <a
-				href="aboutme.html" style="color:rgb(1, 125, 134)">more about my experience here.</a></p>
-	</div>
-	</div><br>
-	<div id="page">
-		<p>I travel for fun so it doesn't matter if you want me to captain you out for deep sea fishing in the Gulf or
-			if you want me to drive your boat up the Mississippi, I will enjoy helping you with your boat needs.</p>
-	</div><br>
-	<div id="footer">
-		<p>My rates will depend on your needs. Pleae contact me at:</p>
-		<address>
-			<a href="mailto:shweeman@hotmail.com">shweeman@hotmail.com</a> or <a
-				href="tel:+18105154155">810-515-4155</a> for any inquiries.</p>
-		</address>
-	</div>
-	website created by Danielle Smith
+	<header class="site-header">
+		<a class="brand" href="index.html" aria-label="Captain Dan Schwieman home">
+			<span class="brand-mark" aria-hidden="true">D</span>
+			<span class="brand-copy"><strong>CAPTAIN DAN</strong><span>Private Boat Captain</span></span>
+		</a>
+		<nav class="site-nav" aria-label="Main navigation">
+			<a class="nav-link" href="#services">Services</a>
+			<a class="nav-link" href="aboutme.html">About Dan</a>
+			<a class="button button-small" href="#contact">Plan a trip <span aria-hidden="true">↗</span></a>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero" aria-labelledby="hero-title">
+			<img class="hero-image" src="assets/boat3.jpg" alt="A boat underway on open water" fetchpriority="high">
+			<div class="hero-shade"></div>
+			<div class="hero-content">
+				<p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> Experienced captain. Your boat.</p>
+				<h1 id="hero-title">Make the most<br>of your time <em>on the water.</em></h1>
+				<p class="hero-intro">A steady, experienced hand for your next trip, passage, or boat delivery.</p>
+				<div class="hero-actions">
+					<a class="button button-coral" href="#contact">Talk through your trip <span aria-hidden="true">↗</span></a>
+					<a class="text-link text-link-light" href="aboutme.html">Meet Captain Dan <span aria-hidden="true">→</span></a>
+				</div>
+			</div>
+			<div class="hero-caption"><span class="caption-dot"></span> Great Lakes · Gulf · Mississippi</div>
+			<div class="hero-index" aria-hidden="true">01 <span></span> 03</div>
+		</section>
+
+		<section class="credentials" aria-label="Captain credentials">
+			<div class="credential"><strong>100 ton</strong><span>Captain</span></div>
+			<div class="credential"><strong>40 years</strong><span>Safety &amp; rescue experience</span></div>
+			<div class="credential"><strong>1 million+</strong><span>Professional driving miles</span></div>
+			<p class="credentials-note">A lifetime around the water, backed by a careful approach to every passage.</p>
+		</section>
+
+		<section class="services section-wrap" id="services">
+			<div class="section-heading">
+				<div>
+					<p class="eyebrow"><span class="eyebrow-line"></span> How I can help</p>
+					<h2>Your boat.<br><em>Your next adventure.</em></h2>
+				</div>
+				<p class="section-intro">From a day on the water to a longer passage, let’s talk about where you want to go and what you need.</p>
+			</div>
+			<div class="service-grid">
+				<article class="service-item">
+					<span class="service-number">01</span>
+					<div><h3>Private trips</h3><p>Enjoy your time aboard while an experienced captain takes the helm, from local outings to Gulf fishing trips.</p></div>
+					<span class="service-arrow" aria-hidden="true">↗</span>
+				</article>
+				<article class="service-item">
+					<span class="service-number">02</span>
+					<div><h3>Boat delivery</h3><p>Need a capable captain for a longer run? Discuss your route, timing, and vessel for a delivery passage.</p></div>
+					<span class="service-arrow" aria-hidden="true">↗</span>
+				</article>
+				<article class="service-item">
+					<span class="service-number">03</span>
+					<div><h3>Passage support</h3><p>Put decades of on-water and safety experience to work on the Great Lakes, Mississippi, and beyond.</p></div>
+					<span class="service-arrow" aria-hidden="true">↗</span>
+				</article>
+			</div>
+			<p class="service-note">Every trip is different. Rates depend on your boat, route, timing, and needs.</p>
+		</section>
+
+		<section class="about-strip">
+			<div class="about-photo-wrap"><img src="assets/dad.jpg" alt="Captain Dan Schwieman" loading="lazy"></div>
+			<div class="about-copy">
+				<p class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> More than a captain</p>
+				<h2>Calm judgment.<br><em>Hard-earned experience.</em></h2>
+				<p>Captain Dan Schwieman brings a lifetime of boating, rescue, and safety experience to every trip. He has sailed the Great Lakes and Atlantic, worked commercial vessels, and traveled waterways around the world.</p>
+				<a class="text-link text-link-light" href="aboutme.html">Read Dan’s story <span aria-hidden="true">→</span></a>
+			</div>
+		</section>
+
+		<section class="contact-section section-wrap" id="contact">
+			<div class="contact-copy">
+				<p class="eyebrow"><span class="eyebrow-line"></span> Start a conversation</p>
+				<h2>Where would<br><em>you like to go?</em></h2>
+				<p>Share a few details and Dan will follow up to discuss your trip and rates.</p>
+				<div class="direct-contact">
+					<a href="tel:+17275634975"><span>Call</span>727-563-4975</a>
+					<a href="mailto:shweeman@hotmail.com"><span>Email</span>shweeman@hotmail.com</a>
+				</div>
+			</div>
+			<form class="inquiry-form" id="inquiry-form">
+				<div class="form-row">
+					<label for="name">Your name</label>
+					<input id="name" name="name" autocomplete="name" required>
+				</div>
+				<div class="form-row">
+					<label for="email">Email address</label>
+					<input id="email" name="email" type="email" autocomplete="email" required>
+				</div>
+				<div class="form-row">
+					<label for="trip">Tell us about your trip</label>
+					<textarea id="trip" name="trip" rows="4" placeholder="Route, dates, boat, or anything else to know" required></textarea>
+				</div>
+				<button class="button button-dark" type="submit">Prepare your inquiry <span aria-hidden="true">↗</span></button>
+				<p class="form-note" id="form-note">Your email app will open with your message ready to send.</p>
+			</form>
+		</section>
+	</main>
+
+	<footer class="site-footer">
+		<a class="brand brand-footer" href="index.html">
+			<span class="brand-mark" aria-hidden="true">D</span>
+			<span class="brand-copy"><strong>CAPTAIN DAN</strong><span>Private Boat Captain</span></span>
+		</a>
+		<p>Good days start on the water.</p>
+		<span class="footer-credit">© <span id="year">2026</span> Captain Dan Schwieman</span>
+	</footer>
 </body>
 
 </html>
